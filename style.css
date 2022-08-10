@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+body {
+  background-color: cadetblue;
+  height: 200vh;
+}
+.header {
+  background-color: rgba(255, 255, 255, 0.555);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7%;
+  margin: 30px;
+  border-radius: 80px;
+  position: sticky;
+  top: 0;
+}
+.header img {
+  width: 150px;
+  border-radius: 80px;
+}
+
+.navbar a {
+  color: darkblue;
+  font-size: 20px;
+  margin: 0 25px;
+  border-bottom: 1px solid transparent;
+}
+.navbar a i {
+  margin-right: 8px;
+}
+.navbar .active,
+.navbar a:hover {
+  border-color: darkblue;
+  padding-bottom: 3px;
+}
+.headerdiv i {
+  font-size: 22px;
+  margin: 20px;
+  cursor: pointer;
+}
+.bottom-button {
+  font-size: 22px;
+  color: darkblue;
+  background-color: cadetblue;
+  width: 175px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 25px;
+}
+.home {
+  background: url(./developers-twt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  align-items: center;
+  margin-top: -210px;
+  display: flex;
+}
+.homediv{
+    margin:0 7%;
+    width: 60%;
+
+
+}
+.homediv h1{
+    font-size: 70px;
+    color: white;
+}
+.homediv p{
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    padding-top: 30px;
+    letter-spacing: 1.8px;
+
+}
