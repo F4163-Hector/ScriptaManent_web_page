@@ -10,7 +10,7 @@ body {
   height: 200vh;
 }
 .header {
-  background-color: rgba(255, 255, 255, 0.555);
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,7 +22,7 @@ body {
 }
 .header img {
   width: 150px;
-  border-radius: 80px;
+  border-radius: 40px;
 }
 
 .navbar a {
@@ -56,7 +56,7 @@ body {
   margin-left: 25px;
 }
 .home {
-  background: url(./developers-twt.jpg);
+  background: url(resim.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -81,5 +81,62 @@ body {
     line-height: 30px;
     padding-top: 30px;
     letter-spacing: 1.8px;
+    
+}
+.member img{
+
+    width: 400px;
+    height: 300px;
+    border-radius: 90px;
+
+}
+.big1, .big2{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  
+
+}
+
+.member{
+  margin: 80px;
+  background-color: white;
+  border-radius: 40px;
+  height: 500px;
+  text-align: center;
+
+
+}
+.teamsection h2{
+        font-size: 70px;
+        text-align: center;
+        margin: 70px;
+        color: white;
+
+
+}
+h3{
+  font-size: 36px;
+  margin: 20px;
+  
+}
+.member p{
+
+font-size: 25px;
+margin-bottom: 30px;
+
+}
+.member a{
+
+  font-size: 32px;
+  margin:35px ;
+}
+
+
+
+
+.footer{
+
+  background-color: rgb(123, 204, 204);
 
 }
